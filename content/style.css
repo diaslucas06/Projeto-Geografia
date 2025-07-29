@@ -33,6 +33,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 20px 0px;
+    width: 100%;
     background-color: var(--dark-orange);
 }
 
@@ -190,7 +191,7 @@ footer {
     }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 1000px) {
     .container {
         width: 85%;
     }
