@@ -94,7 +94,6 @@ section a {
 }
 
 .kwai-imgs img {
-    width: 100%;
     flex-grow: 1;
 }
 
@@ -136,8 +135,10 @@ section a {
 .imgs img {
     width: 100%;
     min-width: 350px;
-    min-height: 400px;
-    flex-grow: 1;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
 }
 
 .reclamacoes {
