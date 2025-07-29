@@ -35,6 +35,7 @@ header {
     padding: 20px 0px;
     width: 100%;
     background-color: var(--dark-orange);
+    box-shadow: 2px 4px 10px rgb(0, 0, 0, 0.25);
 }
 
 .header-content {
@@ -103,6 +104,7 @@ section a {
     color: var(--white);
     padding: 40px 15%;
     border-radius: 15px;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0, 0.25);
 }
 
 .filtragem img {
@@ -155,6 +157,7 @@ section a {
     color: var(--white);
     padding: 30px;
     border-radius: 15px;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0, 0.25);
 }
 
 .user {
