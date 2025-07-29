@@ -41,6 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
     width: 60%;
     color: var(--white);
 }
@@ -92,6 +93,7 @@ section a {
 }
 
 .kwai-imgs img {
+    width: 100%;
     flex-grow: 1;
 }
 
@@ -116,6 +118,10 @@ section a {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.title h2 {
+    min-width: 100px;
 }
 
 .imgs {
