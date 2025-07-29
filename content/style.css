@@ -78,6 +78,11 @@ section {
     gap: 30px;
 }
 
+section a {
+    color: var(--dark-orange);
+    font-weight: bold;
+}
+
 .kwai-imgs {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +125,8 @@ section {
 }
 
 .imgs img {
+    width: 100%;
+    min-width: 350px;
     min-height: 400px;
     flex-grow: 1;
 }
@@ -127,7 +134,7 @@ section {
 .reclamacoes {
     display: flex;
     overflow-x: scroll;
-    gap: 20px;
+    gap: 15px;
     padding-bottom: 10px;
 }
 
@@ -147,6 +154,13 @@ section {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+footer {
+    background-color: var(--orange);
+    color: var(--white);
+    text-align: center;
+    padding: 30px 0px;
 }
 
 ::-webkit-scrollbar {
@@ -169,7 +183,7 @@ section {
 
 @media (max-width: 412px) {
     .container {
-        width: 80%;
+        width: 85%;
     }
     .header-content {
         width: 85%;
